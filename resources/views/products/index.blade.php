@@ -8,13 +8,13 @@
 
             <div class="pull-left">
 
-                <h2>Laravel 8 CRUD with Database</h2>
+                <h2>Laravel 9 CRUD with Database</h2>
 
             </div>
 
             <div class="pull-right">
 
-                <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
+                <a class="btn btn-success" href="{{ route('products.create') }}"> Add Product</a>
 
             </div>
 
@@ -40,11 +40,11 @@
 
         <tr>
 
-            <th>No</th>
+            <th>ID</th>
 
             <th>Name</th>
 
-            <th>Details</th>
+            <th>Description</th>
 
             <th width="280px">Action</th>
 
